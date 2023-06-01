@@ -1,0 +1,15 @@
+.navbar-font-arial {
+  font-family: 'Montserrat', sans-serif;
+  }
+
+.bg-color {
+  background-color: gray;
+}
+
+.center {
+  align-content: center;
+}
+
+.radius {
+  border-radius: 30px 30px 30px 30px;
+}
