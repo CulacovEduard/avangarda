@@ -15,7 +15,7 @@ class Documents extends Component {
         <div style={{ paddingTop: '56px' }}>
           <Container>
             <CardGroup className='mx-auto'>
-              <Card  className='m-4  rounded shadow-lg'>
+              <Card  className='m-5 rounded shadow-lg' border='0'>
                   <Card.Body>
                     <Card.Img 
                       variant='top'
@@ -25,7 +25,7 @@ class Documents extends Component {
                     <DownloadButton filePath={Declaratie} fileName="Declaratie cu privire la impozitul pe venit.pdf" />
                   </Card.Body>
               </Card>
-              <Card className='m-4  rounded shadow-lg'>
+              <Card className='m-5  rounded shadow-lg' border='0'>
                   <Card.Body>
                     <Card.Img 
                       variant='top'

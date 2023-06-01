@@ -3,9 +3,9 @@ import { Container, Table } from 'react-bootstrap';
 
 const MyComponent = () => {
   return (
-    <Container className='mx-auto m-4'>
-        <h2>GRAFICUL ANTRENAMENTELOR</h2>
-    <Table responsive='sm'>
+    <Container className='mx-auto m-4 p-4'>
+        <h2 className='Montserrat-600'>GRAFICUL ANTRENAMENTELOR</h2>
+    <Table responsive='sm' className='Montserrat-300'>
       <tbody>
         <tr>
           <th>LUNI</th>

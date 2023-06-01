@@ -13,40 +13,40 @@ export default class Contacts extends Component {
       <div style={{ paddingTop: '56px' }}>
         <Container>
           <></>
-          <CardGroup className='mx-auto'>
-            <Card className='m-4  rounded shadow-lg'>
+          <CardGroup className='mx-auto m-4'>
+            <Card className='m-5 rounded shadow-lg' border='0'>
               <Card.Img 
                 variant='top'
                 src={img1}
               />
               <Card.Body>
-                <Card.Title>Борис Терзи</Card.Title>
-                <Card.Text>
+                <Card.Text className='Montserrat-600'>Борис Терзи</Card.Text>
+                <Card.Text className='Montserrat-300'>
                     Мобильный номер: -
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card className='m-4 rounded shadow-lg'>
+            <Card className='m-5 rounded shadow-lg' border='0'>
               <Card.Img 
                 variant="top"
                 src={img2}
               />
               <Card.Body>
-                <Card.Title>Цынцырук Андрей</Card.Title>
-                <Card.Text>
+                <Card.Text className='Montserrat-600'>Цынцырук Андрей</Card.Text>
+                <Card.Text className='Montserrat-300'>
                     Мобильный номер: 079707911
                 </Card.Text>
               </Card.Body>
              
             </Card>
-            <Card className='m-4 rounded shadow-lg'>
+            <Card className='m-5 rounded shadow-lg' border='0'>
               <Card.Img 
                 variant="top"
                 src={img3}
               />
               <Card.Body>
-                <Card.Title>Запороженко Иван</Card.Title>
-                <Card.Text>
+                <Card.Text className='Montserrat-600'>Запороженко Иван</Card.Text>
+                <Card.Text className='Montserrat-300'>
                     Мобильный номер: 079760357
                 </Card.Text>
               </Card.Body>

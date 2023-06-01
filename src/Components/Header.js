@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import './NavBarStyle.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from '../Pages/Home';
@@ -14,12 +13,12 @@ export default class Header extends Component {
             <>
                 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
                     <Container>
-                        <Navbar.Brand href="/">
+                        <Navbar.Brand href="/" className='Montserrat-600' >
                             Avangarda
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav " />
                         <Navbar.Collapse id="responsive-navbar-nav" >
-                            <Nav className='mr-auto'>
+                            <Nav className='mr-auto Montserrat-300'>
                                 <Nav.Link href="/"> Главная </Nav.Link>
                                 <Nav.Link href="/blog"> График тренировок </Nav.Link>
                                 <Nav.Link href="/documents"> Документы </Nav.Link>
