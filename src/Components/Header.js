@@ -17,7 +17,7 @@ export default class Header extends Component {
                             Avangarda
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav " />
-                        <Navbar.Collapse id="responsive-navbar-nav" >
+                        <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className='mr-auto Montserrat-300'>
                                 <Nav.Link href="/"> Главная </Nav.Link>
                                 <Nav.Link href="/blog"> График тренировок </Nav.Link>
