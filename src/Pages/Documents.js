@@ -4,9 +4,10 @@ import DownloadButton from "../Components/DownloadButton";
 
 import Declaratie from '../assets/Documents/Declaratie.pdf';
 import Raport from '../assets/Documents/Raport.pdf';
-import DeclaratieImg from '../assets/Documents/DeclaratieImg.png'
-import RaportImg from '../assets/Documents/RaportImg.png'
-
+import DeclaratieImg from '../assets/Documents/DeclaratieImg.png';
+import RaportImg from '../assets/Documents/RaportImg.png';
+import Extras from '../assets/Documents/001.pdf'; 
+import ExtrasImg from '../assets/Documents/Extras.png';
 
 class Documents extends Component {
   render() {
@@ -33,6 +34,16 @@ class Documents extends Component {
                     />
                     <Card.Title >Raport al AO CB AVANGARDA</Card.Title>
                     <DownloadButton filePath={Raport} fileName="Raport al AO CB AVANGARDA.pdf" />
+                  </Card.Body>
+              </Card>
+              <Card  className='m-5 rounded shadow-lg' border='0'>
+                  <Card.Body>
+                    <Card.Img 
+                      variant='top'
+                      src={ExtrasImg}
+                    />
+                    <Card.Title>EXTARS din Registrul de stat al persoanelor juridice</Card.Title>
+                    <DownloadButton filePath={Extras} fileName="EXTARS din Registrul de stat al persoanelor juridice.pdf" />
                   </Card.Body>
               </Card>
             </CardGroup>
